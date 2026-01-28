@@ -325,6 +325,22 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
+  .border-\[2px\] {
+    border-style: var(--tw-border-style);
+    border-width: 2px;
+  }
+  .border-t-\[1px\] {
+    border-top-style: var(--tw-border-style);
+    border-top-width: 1px;
+  }
+  .border-t-\[2px\] {
+    border-top-style: var(--tw-border-style);
+    border-top-width: 2px;
+  }
+  .border-b-\[2px\] {
+    border-bottom-style: var(--tw-border-style);
+    border-bottom-width: 2px;
+  }
   .border-\[\#151515\] {
     border-color: #151515;
   }
@@ -367,6 +383,9 @@
   .pt-\[12px\] {
     padding-top: 12px;
   }
+  .pt-\[20px\] {
+    padding-top: 20px;
+  }
   .pt-\[36px\] {
     padding-top: 36px;
   }
@@ -381,6 +400,9 @@
   }
   .pr-\[58px\] {
     padding-right: 58px;
+  }
+  .pb-\[20px\] {
+    padding-bottom: 20px;
   }
   .pb-\[48px\] {
     padding-bottom: 48px;
