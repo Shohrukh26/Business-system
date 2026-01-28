@@ -176,6 +176,9 @@
   .mt-\[50px\] {
     margin-top: 50px;
   }
+  .mt-\[60\] {
+    margin-top: 60;
+  }
   .mt-\[60px\] {
     margin-top: 60px;
   }
@@ -308,6 +311,9 @@
   .gap-\[12px\] {
     gap: 12px;
   }
+  .gap-\[20\] {
+    gap: 20;
+  }
   .gap-\[20px\] {
     gap: 20px;
   }
@@ -316,6 +322,12 @@
   }
   .gap-\[40px\] {
     gap: 40px;
+  }
+  .gap-\[300px\] {
+    gap: 300px;
+  }
+  .gap-\[500px\] {
+    gap: 500px;
   }
   .border {
     border-style: var(--tw-border-style);
@@ -329,6 +341,10 @@
     border-style: var(--tw-border-style);
     border-width: 2px;
   }
+  .border-s {
+    border-inline-start-style: var(--tw-border-style);
+    border-inline-start-width: 1px;
+  }
   .border-t-\[1px\] {
     border-top-style: var(--tw-border-style);
     border-top-width: 1px;
@@ -341,8 +357,15 @@
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 2px;
   }
+  .border-dashed {
+    --tw-border-style: dashed;
+    border-style: dashed;
+  }
   .border-\[\#151515\] {
     border-color: #151515;
+  }
+  .border-\[\#FFFFFF\] {
+    border-color: #FFFFFF;
   }
   .bg-\[\#151515\] {
     background-color: #151515;
@@ -389,6 +412,9 @@
   .pt-\[36px\] {
     padding-top: 36px;
   }
+  .pt-\[40px\] {
+    padding-top: 40px;
+  }
   .pt-\[52px\] {
     padding-top: 52px;
   }
@@ -406,6 +432,9 @@
   }
   .pb-\[48px\] {
     padding-bottom: 48px;
+  }
+  .pb-\[54px\] {
+    padding-bottom: 54px;
   }
   .pl-\[20px\] {
     padding-left: 20px;
@@ -440,6 +469,9 @@
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
+  }
+  .text-\[\#\#FFFFFF\] {
+    color: ##FFFFFF;
   }
   .text-\[\#151515\] {
     color: #151515;
@@ -478,6 +510,16 @@
       margin-block: 40px;
     }
   }
+  .max-sm\:mt-\[60px\] {
+    @media (width < 40rem) {
+      margin-top: 60px;
+    }
+  }
+  .max-sm\:mb-\[60px\] {
+    @media (width < 40rem) {
+      margin-bottom: 60px;
+    }
+  }
   .max-sm\:flex {
     @media (width < 40rem) {
       display: flex;
@@ -486,6 +528,11 @@
   .max-sm\:hidden {
     @media (width < 40rem) {
       display: none;
+    }
+  }
+  .max-sm\:h-full {
+    @media (width < 40rem) {
+      height: 100%;
     }
   }
   .max-sm\:w-\[90\%\] {
@@ -528,6 +575,21 @@
   .max-sm\:items-start {
     @media (width < 40rem) {
       align-items: flex-start;
+    }
+  }
+  .max-sm\:gap-\[50px\] {
+    @media (width < 40rem) {
+      gap: 50px;
+    }
+  }
+  .max-sm\:gap-\[150px\] {
+    @media (width < 40rem) {
+      gap: 150px;
+    }
+  }
+  .max-sm\:gap-\[250px\] {
+    @media (width < 40rem) {
+      gap: 250px;
     }
   }
   .max-sm\:px-\[10px\] {
